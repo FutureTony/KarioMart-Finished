@@ -1,15 +1,17 @@
 # KarioMartWork
- inlämning av kariomart
+ Assingment - kariomart
 
  ## description of the game and its intended functions.
- I wanted to make a game based on a childhood game of mine which i had in finland where you had a car with a constant force forward with only inputs for turning which made it very hard and super fun.
+ I wanted to make a game based on a childhood game of mine which I had in finland where you had a car with a constant force forward with only inputs for turning which made it very hard and super fun.
  So you should have a constant force forward and turn buttons on \[d\] for right turning and \[a\] for left turning, the main goal of this game is to finnish all the levels as fast as possible which means mastering the turning mechanic and not hitting the wall. there are no mesurements of score atm but you will achieve victory once you beat the third level. Each level will focus on certain aspects of driving such as drifting, turning and a normal level for control familiarity
  ## Instructions for a developer
- All the scenes are in use for this project which include, MainMenu which you will start from, Track1 which is the first level, wheel which is the second level centred around drifting, and quickturn which is the third level centred around quick turns. Packages include NewInputSystem, TextMeshPro, and unity librarys such as Unity.SceneManager
+ All the scenes are in use for this project which include, MainMenu which you will start from, RaceTrack1 which is the first level, wheel which is the second level centred around drifting, and quickturn which is the third level centred around quick turns. Packages include NewInputSystem, TextMeshPro, and unity librarys such as Unity.SceneManager
  ## Structure of the code
- I used a total of 8 scripts to handle my game The most used beeing the PlayerController which took up the role of a gameManager and playercontroller in 1 as i had lite knowlage of inheriting from other scripts. this script includes movement and speed values aswell as the physics in the form of add.force, and some connections to the checkpoint and lapmanager script to handle the scoring and progress.
+ I used a total of 8 scripts to handle my game The most used beeing the PlayerController which took up the role of a gameManager and playercontroller in 1 as I had lite knowlage of inheriting from other scripts. this script includes movement and speed values aswell as the physics in the form of add.force, and some connections to the checkpoint and lapmanager script to handle the scoring and progress.
  secondly was the scripts mainMenu and pausemenu to handle the UI asspects and to make the scripts more understandable
- later on i added the powerupp and powerupp effects scripts so i would be able to make scriptable objects and to separate the functions. Lastly i added the lapmanager and checkpoint scripts so i had a system of transitioning between levels and a distinct end to each level.
+ later on I added the powerupp and powerupp effects scripts so I would be able to make scriptable objects and to separate the functions. Lastly I added the lapmanager and checkpoint scripts so I had a system of transitioning between levels and a distinct end to each level.
+
+ For collisions and triggers I use a check for the player component and the rigid body component to make sure the player is able to trigger the checkpoints and speedbuffs
  ## KeyMappings and instructions 
  three button inputs are implemented D for turning right, A for turning left, and Esc for accesing the menu, aswell as use of the mouse for navigating the menu.
  ## insperations
