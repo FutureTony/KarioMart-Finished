@@ -7,7 +7,7 @@
  ## Instructions for a developer
  All the scenes are in use for this project which include, MainMenu which you will start from, Track1 which is the first level, wheel which is the second level centred around drifting, and quickturn which is the third level centred around quick turns. Packages include NewInputSystem, TextMeshPro, and unity librarys such as Unity.SceneManager
  ## Structure of the code
- I used a total of 8 scripts to handle my game The most used beeing the PlayerController which took up the role of a gameManager and playercontroller in 1 as i had lite knowlage of inheriting from other scripts. this script includes movement and speed values aswell as the phisics in the form of add.force, and some connections to the checkpoint and lapmanager script to handle the scoring and progress.
+ I used a total of 8 scripts to handle my game The most used beeing the PlayerController which took up the role of a gameManager and playercontroller in 1 as i had lite knowlage of inheriting from other scripts. this script includes movement and speed values aswell as the physics in the form of add.force, and some connections to the checkpoint and lapmanager script to handle the scoring and progress.
  secondly was the scripts mainMenu and pausemenu to handle the UI asspects and to make the scripts more understandable
  later on i added the powerupp and powerupp effects scripts so i would be able to make scriptable objects and to separate the functions. Lastly i added the lapmanager and checkpoint scripts so i had a system of transitioning between levels and a distinct end to each level.
  ## keymappings and instructions 
